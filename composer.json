@@ -1,0 +1,25 @@
+{
+    "name": "beycan/eth-based-networks",
+    "version": "0.1.0",
+    "description": "ETH Based networks library",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Halil Beycan",
+            "email": "halilbeycan0@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/BeycanDeveloper/eth-based-networks-php/issues"
+    },
+    "homepage": "https://github.com/BeycanDeveloper/eth-based-networks-php",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beycan\\" : "src"
+        }
+    }
+}

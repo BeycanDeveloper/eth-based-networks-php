@@ -14,8 +14,8 @@ ETH Based networks library.
 use Beycan\EthBasedNetworks;
 
 // Mainnets
-$mainnets = EthBasedNetworks::mainnets;
+$mainnets = EthBasedNetworks::$mainnets;
 
 // Testnets
-$testnets = EthBasedNetworks::testnets;
+$testnets = EthBasedNetworks::$testnets;
 ```
